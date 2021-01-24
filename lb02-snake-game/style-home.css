@@ -1,0 +1,103 @@
+*{ font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 40vh;
+
+}
+
+
+header{
+    height: 20vh;
+    margin-top: 6vh;
+}
+
+.title{
+    margin: 0vh;
+    background-color: darkseagreen;
+    padding: 15px;
+    
+}
+
+header h1{
+    margin-left: 5vw;
+    font-size: 45px;
+    
+}
+.stripe{
+    background-color: darkseagreen;
+    margin-top: 2vh;
+    color: darkseagreen ;
+}
+
+
+#navigationsleiste{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    list-style: none;
+    color: darkolivegreen;
+    font-size: 20px;
+}
+nav{ 
+    display: flex;
+    flex-direction: row;
+    margin-left: 41vw;
+}
+
+nav li{
+    margin: 0 30px;
+    font-size: 22px;
+    transform: scale(1.0);
+    transition: 0.3s;
+}
+
+nav li:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+nav a{
+    text-decoration: none;
+    color: darkolivegreen;
+    
+}
+
+.home_img img{
+    display: flex;
+    align-items: center;
+    margin-left: 29vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 700px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.home_img p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin-bottom: 8vh;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: darkseagreen;
+    vertical-align: middle;
+}
+
+footer{
+    background-color: darkseagreen;
+    height:16vh;
+}
